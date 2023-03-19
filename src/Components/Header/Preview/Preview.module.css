@@ -1,0 +1,180 @@
+.child {
+    background: url('../../../assets/child.png') no-repeat top 30% right 50px;
+    height: 100vh;
+}
+
+.bg_box {
+    background: url('../../../assets/bg1.png') no-repeat bottom 30% left 0px;
+    height: 100%;
+
+}
+
+.container {
+    max-width: 85%;
+    height: 80%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+}
+
+.card_home h1 {
+    font-family: 'PoppinsRegular', sans-serif;
+    font-weight: 600;
+    font-size: 45px;
+    line-height: 68px;
+    color: #000B33;
+    margin: 20px 0 0;
+}
+
+.card_home p {
+    font-family: 'PoppinsMedium', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    color: #000B33;
+    opacity: 0.8;
+}
+
+.box_card {
+    background: url('../../../assets/bg2.png') no-repeat;
+    background-position: top -0% left 0%;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 50px 0;
+}
+
+.links {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10%;
+    width: 80%;
+}
+
+.links a {
+    flex: 0 1 48%;
+    color: #fff;
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 25px;
+    height: 52px;
+    border-radius: 12px;
+    transition: 0.5s;
+    padding: 0 0;
+    background-color: #2782A3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.links a:hover {
+    color: #2782A3;
+    border: 1px solid #2782A3;
+    background: #fff;
+}
+
+.links a:active {
+    background: #000;
+    color: #fff;
+}
+
+@media(min-width:1921px) {
+    .container {
+        max-width: 1440px;
+    }
+}
+
+@media(max-width:1600px) {
+    .child {
+        background-size: 50%;
+    }
+}
+
+@media(max-width:1400px) {
+    .links a {
+        font-size: 14px;
+    }
+}
+
+@media(max-width:1200px) {
+    .links a {
+        text-align: center;
+    }
+}
+
+@media(max-width:992px) {
+    .child {
+        height: 70vh;
+    }
+
+    .card_home h1 {
+        font-size: 30px;
+    }
+
+    .links {
+        width: 100%;
+    }
+
+    .links a {
+        line-height: 18px;
+    }
+}
+
+@media(max-width:767px) {
+    .container {
+        justify-content: center;
+        align-items: flex-start;
+        max-width: 95%;
+    }
+
+    .card_home h1 {
+        font-size: 26px;
+        line-height: 39px;
+    }
+
+    .card_home p {
+        width: 80%;
+    }
+
+    .child {
+        background-size: 120%;
+        background-position: left 0% bottom 0;
+        height: 110vh;
+    }
+
+    .bg_box {
+        background: url('../../../assets/Ellipse_top_mobile.png') no-repeat top 30% right 0px;
+        background-size: 80px;
+    }
+
+    .box_card {
+        width: 95%;
+        align-items: flex-start;
+    }
+
+    .links {
+        justify-content: flex-start;
+        margin-top: 20px;
+    }
+
+    .links a {
+        flex: 0 1 30%;
+        margin-right: 30px;
+    }
+}
+
+@media(max-width:430px) {
+    .child {
+        background-size: 120%;
+        background-position: left 0% bottom 0;
+        height: 90vh;
+    }
+
+    .links a {
+        font-size: 12px;
+        line-height: 16px;
+    }
+}

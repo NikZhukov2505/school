@@ -1,0 +1,268 @@
+.container {
+    max-width: 85%;
+    margin: 0 auto;
+}
+
+.footer_all {
+    position: relative;
+    padding: 70px 0 40px;
+    margin-top: 40px;
+    background-color: #001C80;
+    border-radius: 30px 30px 0px 0px;
+}
+
+.footer_all::after {
+    content: '';
+    width: 237px;
+    height: 120px;
+    background: url('../../assets/Ellipse_news.png') center / cover no-repeat;
+    position: absolute;
+    top: -27.5%;
+    right: 30px;
+    z-index: -10;
+}
+
+.contact {
+    flex: 0 1 10%;
+}
+
+.contact h2 {
+    font-family: 'PoppinsRegular', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+}
+
+.number_contact {
+    margin-left: 21px;
+}
+
+.number {
+    font-family: 'PoppinsMedium', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 2.5;
+    color: #FFFFFF;
+}
+
+.mail_card {
+    margin-top: 2%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.mail_contact {
+    font-family: 'PoppinsMedium', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 2.5;
+    color: #FFFFFF;
+    margin-left: 21px;
+}
+
+.mail_contact a {
+    font-family: 'PoppinsMedium', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+}
+
+.box_contact {
+    margin-top: 2%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 14%;
+}
+
+.footer_nav {
+    flex: 0 1 10%;
+}
+
+.menu {
+    border-bottom: 1px solid #535252;
+    margin: 0 0 20px 0;
+}
+
+.menu_item {
+    cursor: pointer;
+    font-family: 'PoppinsMedium', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 2.5;
+    color: #FFFFFF;
+}
+
+
+.all_box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.icons img {
+    width: 24px;
+    height: 24px;
+    margin-right: 20px;
+}
+
+.map_block {
+    position: relative;
+    top: -130px;
+    left: 0px;
+    flex: 0 1 35%;
+    height: 300px;
+}
+
+.gmap_iframe {
+    height: 100%;
+    border-radius: 20px;
+    box-shadow: 0px 0px 15px 2px #001C80;
+}
+
+.address {
+    text-align: center;
+    margin: 10px 0;
+    font-family: 'PoppinsMedium', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: #fff;
+}
+
+.documents {
+    background: #2782A3;
+    border-radius: 12px;
+    display: block;
+    width: 100%;
+    height: 47px;
+    font-family: 'PoppinsSemi', sans-serif;
+    font-weight: 600;
+    color: #fff;
+    font-size: 18px;
+    margin-top: 20px;
+}
+
+.documents:active {
+    background: black;
+}
+
+.itc_ref_block {
+    text-align: center;
+    align-self: flex-end;
+    color: #fff;
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 500;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    height: 50px;
+    padding: 10px 0;
+}
+
+.itc_ref_block a {
+    color: greenyellow;
+    margin-left: 10px;
+    text-decoration: underline;
+}
+
+.itc_ref_block span {
+    font-size: 10px;
+    color: greenyellow;
+    margin-bottom: 8px;
+}
+
+@media(min-width:1921px) {
+    .container {
+        max-width: 1440px;
+    }
+}
+
+@media(max-width:1280px) {
+    .map_block {
+        height: 250px;
+        flex: 0 1 45%;
+    }
+}
+
+@media(max-width:992px) {
+    .container {
+        max-width: 90%;
+    }
+
+    .number {
+        font-size: 14px;
+    }
+
+    .mail_contact {
+        font-size: 14px;
+    }
+
+    .documents {
+        width: 100%;
+        font-size: 14px;
+    }
+}
+
+@media(max-width:767px) {
+    .footer_all {
+        border-radius: 0;
+    }
+
+    .footer_all::after {
+        top: -16%;
+        right: 0%;
+    }
+
+    .all_box {
+        flex-wrap: wrap;
+    }
+
+    .number_contact {
+        margin-left: 10px;
+    }
+
+    .mail_contact {
+        margin-left: 10px;
+    }
+
+    .map_block {
+        order: 1;
+        flex: 0 1 100%;
+    }
+
+    .contact {
+        order: 2;
+        flex: 0 1 35%;
+    }
+
+    .menu li {
+        text-align: right;
+    }
+
+    .footer_nav {
+        order: 3;
+        flex: 0 1 20%;
+    }
+
+    .map_block {
+        left: 0;
+    }
+}
+
+@media(max-width:430px) {
+    .contact {
+        display: flex;
+        flex-direction: column;
+        height: 320px;
+        justify-content: space-between;
+    }
+}

@@ -1,0 +1,145 @@
+.box_general {
+    background: url('../../assets/Ellipse\ 61.png') no-repeat;
+    height: 700px;
+    background-position: bottom -100px left 0px;
+    overflow: hidden;
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 85%;
+}
+
+.clubs_all {
+    margin-top: 10%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.img_bg {
+    background: url('../../assets/Ellipse\ 60.png') no-repeat;
+    background-position: top 25% left 90%;
+    flex: 0 1 64%;
+    text-align: center;
+}
+
+.img_bg img {
+    /* width: 600px;
+    height: 500px; */
+    width: 70%;
+    margin: 0 auto;
+    display: block;
+}
+
+.clubs_box {
+    flex: 0 1 31%;
+    align-items: center;
+}
+
+.clubs_box h3 {
+    font-family: 'PoppinsSemi', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 3;
+    color: #00BB98;
+}
+
+.clubs_box h2 {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 1;
+    letter-spacing: -0.5px;
+    color: #000B33;
+}
+
+.clubs_box p {
+    font-family: 'PoppinsRegular', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    margin-top: 5%;
+    color: #000B33;
+    opacity: 0.8;
+}
+
+.clubs_box button {
+    width: 218px;
+    height: 50px;
+    background: #2782A3;
+    border-radius: 12px;
+    margin-top: 12%;
+
+}
+
+.clubs_box a {
+    font-family: 'PoppinsRegular', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+@media(min-width:1921px) {
+    .container {
+        max-width: 1440px;
+    }
+}
+
+@media(max-width:1440px) {
+    .img_bg {
+        background-position: top 25% left 100%;
+    }
+
+    .clubs_box h2 {
+        font-size: 36px;
+    }
+}
+
+@media(max-width:1280px) {
+    .clubs_box h2 {
+        font-size: 30px;
+    }
+}
+
+@media(max-width:992px) {
+    .box_general {
+        height: 500px;
+    }
+
+    .clubs_box h2 {
+        font-size: 25px;
+    }
+}
+
+@media(max-width:767px) {
+    .box_general {
+        height: auto;
+        background-size: 15%;
+    }
+
+    .img_bg {
+        background-size: 30%;
+    }
+
+    .clubs_all {
+        flex-direction: column-reverse;
+    }
+
+    .clubs_box h2 {
+        font-size: 25px;
+    }
+
+    .clubs_box button {
+        margin: 30px 0;
+    }
+
+
+
+}

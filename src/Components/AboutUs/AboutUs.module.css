@@ -1,0 +1,315 @@
+.container {
+    max-width: 85%;
+    margin: 0 auto;
+
+}
+
+.text {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 58px;
+    letter-spacing: -0.5px;
+    color: #000B33;
+    text-align: center;
+}
+
+.box_all {
+    display: flex;
+    justify-content: space-between;
+    margin: 3% 0;
+}
+
+.all {
+    display: flex;
+    text-align: center;
+}
+
+.box h3 {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 60px;
+    color: #000000;
+}
+
+.box p {
+    font-family: 'PoppinsRegular', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    color: #000000;
+}
+
+.all_two {
+    background: url('../../assets/geometric_figures.png') right 20px bottom -20px no-repeat;
+    background-color: #d5d4d4;
+}
+
+
+.box_card {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex: 0 1 50%;
+}
+
+.card {
+    flex: 0 1 45%;
+}
+
+.card_right {
+    flex: 0 1 45%;
+}
+
+.card_all {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+
+.card_one {
+    margin: 20% 0;
+    height: 350px;
+    flex: 0 1 90%;
+    background: #FFFFFF;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0px 0px 20px 10px rgba(81, 154, 255, 0.496);
+}
+
+.card_one h2 {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 55px;
+    text-align: center;
+    color: #000B33;
+}
+
+.card_one p {
+    font-family: 'PoppinsRegular', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 27px;
+    text-align: center;
+    color: #000B33;
+    opacity: 0.7;
+}
+
+.shool {
+    flex: 0 1 45%;
+    min-height: 600px;
+}
+
+.shool h2 {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 1.5;
+    letter-spacing: -0.5px;
+    color: #000B33;
+}
+
+.shool p {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 26px;
+    color: #000000;
+    width: 95%;
+    white-space: break-spaces;
+}
+
+.shool button {
+    margin-top: 27px;
+    background: #2782A3;
+    width: 220px;
+    height: 50px;
+    font-family: 'PoppinsSemi', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    color: #fff;
+    border-radius: 10px;
+    width: 70%;
+}
+
+@media(min-width:1921px) {
+    .container {
+        max-width: 1440px;
+    }
+}
+
+@media(max-width:1400px) {
+    .card_one {
+        padding: 0 10px;
+    }
+
+    .card_one h2 {
+        font-size: 20px;
+    }
+
+    .card_one p {
+        font-size: 18px;
+    }
+}
+
+@media(max-width:1280px) {
+    .text {
+        font-size: 45px;
+    }
+
+    .box h3 {
+        font-size: 45px;
+    }
+}
+
+@media(max-width:1200px) {
+    .card_one h2 {
+        line-height: 25px;
+
+    }
+
+    .card_one p {
+        font-size: 16px;
+    }
+}
+
+@media(max-width:992px) {
+    .all_two {
+        background-color: #5FAFCE;
+    }
+
+    .text {
+        font-size: 38px;
+    }
+
+    .box h3 {
+        font-size: 35px;
+    }
+
+    .box p {
+        font-size: 15px;
+    }
+
+    .all img {
+        width: 50px;
+        height: 50px;
+    }
+
+    .card_one h2 {
+        font-size: 16px;
+    }
+
+    .card_one p {
+        font-size: 14px;
+    }
+
+    .card_one img {
+        width: 55px;
+        height: 55px;
+    }
+
+    .shool h2 {
+        font-size: 35px;
+    }
+
+    .shool p {
+        font-size: 14px;
+    }
+
+    .card {
+        flex: 0 1 49%;
+    }
+
+    .card_right {
+        flex: 0 1 49%;
+    }
+}
+
+@media(max-width:767px) {
+    .text {
+        font-size: 24px;
+    }
+
+    .box_all {
+        flex-wrap: wrap;
+    }
+
+    .all {
+        flex: 0 1 45%;
+        margin-bottom: 20px;
+        align-items: center;
+    }
+
+
+    .box p {
+        line-height: 18px;
+    }
+
+    .card_all {
+        flex-direction: column;
+    }
+
+    .box_card {
+        flex-direction: column;
+    }
+
+    .card {
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    .card_one {
+        height: 250px;
+        margin: 20px 0;
+        flex: 0 1 45%;
+        padding: 0 5px;
+    }
+
+    .container {
+        width: 95%;
+    }
+
+    .card_right {
+        display: flex;
+        justify-content: center;
+    }
+
+    .card_right .card_one {
+        flex: 0 1 50%;
+        margin: 0 0 20px;
+    }
+
+    .card_one h2 {
+        line-height: 18px;
+    }
+
+    .card_one p {
+        line-height: 18px;
+        font-size: 16px;
+    }
+
+    .card_right {
+        margin: 0;
+    }
+}
+
+@media(max-width:430px) {
+    .card_one p {
+        font-size: 15px;
+    }
+
+    .card_one {
+        height: 280px;
+    }
+
+}

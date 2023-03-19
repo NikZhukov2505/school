@@ -1,0 +1,159 @@
+header {
+    padding: 20px 0 20px 0;
+    border-bottom: 1px solid #C9C2C2;
+    margin-bottom: 20px;
+}
+
+.container {
+    max-width: 85%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav_menu {
+    flex: 0 1 70%;
+}
+
+.logo {
+    flex: 0 1 5%;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.menu li {
+    flex: 0 1 16.6%;
+    list-style: none;
+    text-align: center;
+}
+
+.menu_items {
+    cursor: pointer;
+    font-family: 'PoppinsRegular', sans-serif;
+    color: #14013F;
+    font-size: 18px;
+    font-weight: 400;
+    transition: 300ms;
+}
+
+.menu_items:hover {
+    color: #a07d09;
+}
+
+.contacts_block {
+    flex: 0 1 12%;
+    position: relative;
+}
+
+.contacts_block button {
+    background: #2782A3;
+    border-radius: 12px;
+    display: block;
+    width: 100%;
+    height: 47px;
+    font-family: 'PoppinsSemi', sans-serif;
+    font-weight: 600;
+    color: #fff;
+    font-size: 18px;
+    transition: 0.4s;
+}
+
+.contacts_block button:hover {
+    background-color: #fff;
+    color: #2782A3;
+    border: 1px solid #2782A3;
+}
+
+.contacts_block button:active {
+    background: black;
+}
+
+.contacts {
+    position: absolute;
+    width: 100%;
+    min-height: 80px;
+    background-color: black;
+    bottom: -230%;
+    left: 0;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 0px 20px 5px #000;
+
+}
+
+.contacts p {
+    padding: 7px 0;
+}
+
+.phones {
+    color: #fff;
+    font-family: 'PoppinsSemi', sans-serif;
+    font-size: 18px;
+}
+
+@media(min-width:1921px) {
+    .container {
+        max-width: 1440px;
+    }
+}
+
+@media(max-width:1400px) {
+    .menu_items {
+        font-size: 16px;
+    }
+
+    .contacts_block button {
+        font-size: 16px;
+    }
+
+    .contacts {
+        padding: 5px 50px;
+        bottom: -240%;
+    }
+
+    .phones {
+        font-size: 16px;
+    }
+}
+
+@media(max-width:1280px) {
+    .contacts {
+        width: 120%;
+    }
+
+    .phones {
+        font-size: 14px;
+    }
+}
+
+@media(max-width:992px) {
+    .menu_items {
+        font-size: 14px;
+    }
+
+    .contacts_block button {
+        font-size: 14px;
+    }
+
+    .phones {
+        font-size: 12px;
+    }
+}
+
+@media(max-width:767px) {
+    .nav_menu {
+        display: none;
+    }
+
+    .contacts_block {
+        display: none;
+    }
+}
