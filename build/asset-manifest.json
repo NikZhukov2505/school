@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/static/css/main.38b4de0c.css",
+    "main.js": "/static/js/main.5ee6af0e.js",
+    "static/media/Закл. ВЭК.pdf": "/static/media/Закл. ВЭК.5722ef3edbbf7a434489.pdf",
+    "static/media/Inter-VariableFont_slnt,wght.ttf": "/static/media/Inter-VariableFont_slnt,wght.aadb65ac45347ff46699.ttf",
+    "static/media/отчет.pdf": "/static/media/отчет.e3b81598f034e1d3535f.pdf",
+    "static/media/Сертификат.pdf": "/static/media/Сертификат.c05887bade54829cf235.pdf",
+    "static/media/свидетельство.pdf": "/static/media/свидетельство.d10c1372cc6a19f6e4f8.pdf",
+    "static/media/Устав.pdf": "/static/media/Устав.7df939c4516fb9875cb7.pdf",
+    "static/media/clubImg.png": "/static/media/clubImg.5f06bffdc0b10e1a0976.png",
+    "static/media/Лицензия.pdf": "/static/media/Лицензия.fe03bd18872b5ab0f840.pdf",
+    "static/media/child.png": "/static/media/child.1a36da910f14d95f77bb.png",
+    "static/media/Poppins-Regular.ttf": "/static/media/Poppins-Regular.35d26b781dc5fda684cc.ttf",
+    "static/media/Poppins-Medium.ttf": "/static/media/Poppins-Medium.673ed42382ab264e0bf5.ttf",
+    "static/media/Poppins-SemiBold.ttf": "/static/media/Poppins-SemiBold.ac8d04b620e54be9b0f0.ttf",
+    "static/media/reviews.png": "/static/media/reviews.64d7481551a576af1446.png",
+    "static/media/lg.svg?io9a6k": "/static/media/lg.09cd8e9be7081f216644.svg",
+    "static/media/lg.woff?io9a6k": "/static/media/lg.356a0e9cb064c7a196c6.woff",
+    "static/media/lg.ttf?io9a6k": "/static/media/lg.747d038541bfc6bb8ea9.ttf",
+    "static/media/lg.woff2?io9a6k": "/static/media/lg.64b800aa30714fd916dc.woff2",
+    "index.html": "/index.html",
+    "main.38b4de0c.css.map": "/static/css/main.38b4de0c.css.map",
+    "main.5ee6af0e.js.map": "/static/js/main.5ee6af0e.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.38b4de0c.css",
+    "static/js/main.5ee6af0e.js"
+  ]
+}
