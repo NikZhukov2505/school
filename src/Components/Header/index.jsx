@@ -1,6 +1,5 @@
 import React, { useContext } from 'react';
 import s from './Header.module.css'
-import logo from '../../assets/logo.png'
 import Menu from './Menu';
 import { SchoolContext } from '../../schoolContext';
 import 'animate.css';

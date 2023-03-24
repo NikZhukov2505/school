@@ -6,7 +6,7 @@ const ContactsButton = ({ info }) => {
     const [showContacts, setShowContacts] = useState(false)
     const phonesBlock = useRef(null)
     const toggleClass = () => {
-        if (phonesBlock.current.classList[2] == 'phonesBlock') {
+        if (phonesBlock.current.classList[2] === 'phonesBlock') {
             phonesBlock.current.classList.add('animate__zoomOutUp')
         }
         showContacts ?

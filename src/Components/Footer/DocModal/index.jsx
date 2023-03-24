@@ -18,7 +18,7 @@ const DocModal = ({ hide }) => {
                 <a rel="noopener noreferrer" href={charter} target='_blank' className={s.document_items}>Устав</a>
                 <a rel="noopener noreferrer" href={license} target='_blank' className={s.document_items}>Лицензия</a>
                 <a rel="noopener noreferrer" href={certificate} target='_blank' className={s.document_items}>Сертификат</a>
-                <a rel="noopener noreferrer" href={conclusion} target='_blank' className={s.document_items}>Заключение Экспортной Комиссии</a>
+                <a rel="noopener noreferrer" href={conclusion} target='_blank' className={s.document_items}>Заключение Экспертной Комиссии</a>
             </div>
         </div>
     );
